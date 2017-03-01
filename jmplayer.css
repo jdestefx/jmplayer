@@ -1,0 +1,13 @@
+
+* {font-size:18px}
+html                          {font-family:monospace;}
+
+td.song-row                    {background-color:rgb(230, 255, 248)}
+td.song-row.playing           {background-color:rgb(178, 255, 242)}
+
+td .playbtn                      {  display: inline-block;  background: url("/player_play.png");  text-align: center; }
+td .btn-wrap                     {display:inline-block;float:right;padding: 0px 0px 0px 0px;cursor: pointer;}
+td .btn-wrap:hover               {background-color: rgba(0,0,0,0.1)}
+td.song-row a                    {margin-right:40px}
+
+img                             {display:none}

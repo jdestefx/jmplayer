@@ -1,0 +1,3 @@
+look for autoindex.conf and edit headername to be /index.php (or w/e the header file is).  / = webroot
+also edit autoindex.conf  IndexOptions and make sure NameWidth=*  .. also maybe turn off FancyIndexing
+
