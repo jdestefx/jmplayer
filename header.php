@@ -17,15 +17,15 @@
    // otherwise continue w the page!
 ?>
 
-<link rel="stylesheet" type="text/css" href="/jmplayer.css" />
+<link rel="stylesheet" type="text/css" href="/jmplayer/jmplayer.css" />
 
 <script type="text/javascript">
    var files = <?php echo json_encode($files)."\n"; ?>
    var getParams = <?php echo json_encode($_GET)."\n"; ?>
    
 </script>
-<script type="text/javascript" src="/jquery-2.0.3.min.js"></script>
-<script type="text/javascript" src="/jmplayer.js"></script>
+<script type="text/javascript" src="/jmplayer/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="/jmplayer/jmplayer.js"></script>
 
 
 <?php
